@@ -49,9 +49,10 @@ body {
 }
 
 .hero__logo {
-  width: 130px;
+  width: 200px; /* ← agrandi */
   z-index: 1;
   animation: pulse 3s infinite;
+
 }
 
 .hero__title {
@@ -413,3 +414,4 @@ body {
     width: calc(100% - 80px);
   }
 }
+
