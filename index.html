@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Official website of Enactus Limitl’ESS INTeK – student-led social innovation team at INTeK." />
   <title>Enactus Limitl’ESS INTeK</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-  <script defer src="chatbot.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  
 </head>
 <body>
-
-  <!-- HERO -->
+  <!-- Hero Section -->
   <header class="hero">
-    <div class="hero-overlay"></div>
-    <img src="logo.png" alt="Club Logo" class="hero-logo" />
-    <h1 class="hero-title">Enactus Limitl’ESS INTeK</h1>
-    <p class="hero-subtitle">Innovation • Impact • Community</p>
-    <a href="#about" class="hero-button">Discover More</a>
+    <div class="hero__overlay"></div>
+    <img src="images/logo.png" alt="Enactus Limitl’ESS INTeK Logo" class="hero__logo" />
+    <h1 class="hero__title">Enactus Limitl’ESS INTeK</h1>
+    <p class="hero__subtitle">Innovation • Impact • Community</p>
+    <a href="#about" class="hero__button">Discover More</a>
   </header>
 
-  <!-- NAVBAR -->
-  <nav class="navbar">
+  <!-- Navigation -->
+  <nav class="navbar" aria-label="Main navigation">
     <a href="#about">About</a>
     <a href="#missions">Missions</a>
     <a href="#board">Board</a>
@@ -30,125 +33,126 @@
     <a href="#contact">Contact</a>
   </nav>
 
-  <!-- ABOUT -->
-  <section id="about" class="section fade-in">
-    <h2>About Enactus</h2>
-    <p>Enactus Limitl’ESS INTeK is part of a global network that empowers students to drive social impact through entrepreneurial action. We inspire innovation, leadership, and sustainable projects for positive change.</p>
-    <div class="stats">
-      <div class="stat-card">
-        <h3>---</h3>
-        <p>Projects Completed</p>
+  <main>
+    <!-- About Section -->
+    <section id="about" class="section fade-in">
+      <h2>About Enactus</h2>
+      <p>
+        Enactus Limitl’ESS INTeK is part of a global network that empowers students to drive social impact through entrepreneurial action.
+        We inspire innovation, leadership, and sustainable projects for positive change.
+      </p>
+      <div class="stats">
+        <div class="stat-card">
+          <h3>—</h3>
+          <p>Projects Completed</p>
+        </div>
+        <div class="stat-card">
+          <h3>45+</h3>
+          <p>Active Members</p>
+        </div>
+        <div class="stat-card">
+          <h3>—</h3>
+          <p>Global Partners</p>
+        </div>
       </div>
-      <div class="stat-card">
-        <h3>45+</h3>
-        <p>Active Members</p>
-      </div>
-      <div class="stat-card">
-        <h3>---</h3>
-        <p>Global Partners</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- MISSIONS -->
-  <section id="missions" class="section slide-up">
-    <h2>Missions & Goals</h2>
-    <div class="card-grid">
-      <div class="card">
-        <h3>Empowerment</h3>
-        <p>Develop leadership and entrepreneurial skills among students.</p>
+    <!-- Missions Section -->
+    <section id="missions" class="section slide-up">
+      <h2>Missions & Goals</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Empowerment</h3>
+          <p>Develop leadership and entrepreneurial skills among students.</p>
+        </div>
+        <div class="card">
+          <h3>Social Innovation</h3>
+          <p>Create sustainable projects that address social challenges.</p>
+        </div>
+        <div class="card">
+          <h3>Community Engagement</h3>
+          <p>Work closely with local communities for measurable change.</p>
+        </div>
       </div>
-      <div class="card">
-        <h3>Social Innovation</h3>
-        <p>Create sustainable projects that address social challenges.</p>
-      </div>
-      <div class="card">
-        <h3>Community Engagement</h3>
-        <p>Work closely with local communities for measurable change.</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- BOARD -->
-  <section id="board" class="section fade-in">
-    <h2>Meet Our Board</h2>
-    <div class="board-grid">
-      <div class="member-card">
-        <img src="emna.jpg" alt="Emna Boukari">
-        <h3>Emna Boukari</h3>
-        <p>Team Leader</p>
+    <!-- Board Section -->
+    <section id="board" class="section fade-in">
+      <h2>Meet Our Board</h2>
+      <div class="board-grid">
+        <!-- Member cards -->
+        <div class="member-card">
+          <img src="emna.jpg" alt="Emna Boukari, Team Leader" loading="lazy" />
+          <h3>Emna Boukari</h3>
+          <p>Team Leader</p>
+        </div>
+        <div class="member-card">
+          <img src="marwa.jpg" alt="Marwa Zguiri, Vice Team Leader" loading="lazy" />
+          <h3>Marwa Zguiri</h3>
+          <p>Vice Team Leader</p>
+        </div>
+        <div class="member-card">
+          <img src="raed.jpg" alt="Raed Omri, Human Resources" loading="lazy" />
+          <h3>Raed Omri</h3>
+          <p>Human Resources</p>
+        </div>
+        <div class="member-card">
+          <img src="mariem.jpg" alt="Mariem Ahmadi, Treasurer" loading="lazy" />
+          <h3>Mariem Ahmadi</h3>
+          <p>Treasurer</p>
+        </div>
+        <div class="member-card">
+          <img src="senda.jpg" alt="Senda Abidi, Event Manager" loading="lazy" />
+          <h3>Senda Abidi</h3>
+          <p>Event Manager</p>
+        </div>
+        <div class="member-card">
+          <img src="rane.jpg" alt="Rane Arous, Project Manager" loading="lazy" />
+          <h3>Rane Arous</h3>
+          <p>Project Manager</p>
+        </div>
       </div>
-      <div class="member-card">
-        <img src="marwa.jpg" alt="Marwa Zguiri">
-        <h3>Marwa Zguiri</h3>
-        <p>Vice Team Leader</p>
-      </div>
-      <div class="member-card">
-        <img src="raed.jpg" alt="Raed Omri">
-        <h3>Raed Omri</h3>
-        <p>Human Resources</p>
-      </div>
-      <div class="member-card">
-        <img src="mariem.jpg" alt="Mariem Ahmadi">
-        <h3>Mariem Ahmadi</h3>
-        <p>Treasurer</p>
-      </div>
-      <div class="member-card">
-        <img src="senda.jpg" alt="Senda Abidi">
-        <h3>Senda Abidi</h3>
-        <p>Event Manager</p>
-      </div>
-      <div class="member-card">
-        <img src="rane.jpg" alt="Rane Arous">
-        <h3>Rane Arous</h3>
-        <p>Project Manager</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- GOALS -->
-  <section id="goals" class="section slide-up">
-    <h2>Our Goals</h2>
-    <ul class="goals-list">
-      <li>Organize impactful social projects</li>
-      <li>Develop leadership & entrepreneurship</li>
-      <li>Network with global chapters</li>
-      <li>Create long-lasting social impact</li>
-    </ul>
-  </section>
+    <!-- Goals Section -->
+    <section id="goals" class="section slide-up">
+      <h2>Our Goals</h2>
+      <ul class="goals-list">
+        <li>Organize impactful social projects</li>
+        <li>Develop leadership & entrepreneurship</li>
+        <li>Network with global chapters</li>
+        <li>Create long-lasting social impact</li>
+      </ul>
+    </section>
 
-  <!-- MOTIVATION -->
-  <section id="motivation" class="section fade-in">
-    <h2>Motivation</h2>
-    <p>At Enactus Limitl’ESS INTeK, we believe in the power of students to create meaningful change. Our motivation is to empower every member to become a socially responsible leader, innovate solutions addressing real challenges, and inspire communities through sustainable entrepreneurial projects. Together, we transform ideas into measurable social value.</p>
-  </section>
+    <!-- Motivation Section -->
+    <section id="motivation" class="section fade-in">
+      <h2>Motivation</h2>
+      <p>
+        At Enactus Limitl’ESS INTeK, we believe in the power of students to create meaningful change.
+        Our motivation is to empower every member to become a socially responsible leader,
+        innovate solutions addressing real challenges, and inspire communities through sustainable entrepreneurial projects.
+        Together, we transform ideas into measurable social value.
+      </p>
+    </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="section fade-in">
-    <h2>Follow Us</h2>
-    <div class="social-icons">
-      <a href="https://www.facebook.com/share/19FAUHJrG6/" target="_blank">
-        <img src="images/facebook.png" alt="Facebook Logo" class="icon">
-      </a>
-      <a href="https://www.instagram.com/intekenactuslimitless?igsh=cjE1cTB6aGpla2Z0" target="_blank">
-        <img src="images/instagram.png" alt="Instagram Logo" class="icon">
-      </a>
-      <a href="#">
-        <img src="images/logo.png" alt="Club Logo" class="icon">
-      </a>
-    </div>
-  </section>
+    <!-- Contact Section -->
+    <section id="contact" class="section fade-in">
+      <h2>Follow Us</h2>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/share/19FAUHJrG6/" target="_blank" rel="noopener" aria-label="Facebook">
+          <img src="images/facebook.png" alt="Facebook" class="icon" />
+        </a>
+        <a href="https://www.instagram.com/intekenactuslimitless?igsh=cjE1cTB6aGpla2Z0" target="_blank" rel="noopener" aria-label="Instagram">
+          <img src="images/instagram.png" alt="Instagram" class="icon" />
+        </a>
+        <a href="#" aria-label="Club Website">
+          <img src="logo.png" alt="Club Logo" class="icon" />
+        </a>
+      </div>
+    </section>
+  </main>
 
-  <!-- CHATBOT -->
-  <div id="chatbot">
-    <div class="chat-header">Ask Me ✉️</div>
-    <div id="chatbox"></div>
-    <input type="text" id="userInput" placeholder="Type your question...">
-    <button onclick="sendMessage()">Send</button>
-  </div>
 
-  <script src="chatbot.js"></script>
 </body>
 </html>
-
-
